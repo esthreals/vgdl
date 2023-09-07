@@ -1,6 +1,4 @@
 import urllib.request
-from time import sleep
-import numpy as np
 import pyperclip
 
 
