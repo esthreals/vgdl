@@ -1,4 +1,6 @@
 import urllib.request
+from time import sleep
+import numpy as np
 import pyperclip
 
 
@@ -15,7 +17,7 @@ def pixhost(response):
 		response2 = str(urllib.request.urlopen(request2).read())
 		splitstring = "pixhost.to/images/"
 		response2 = response2.split(splitstring)
-		image_link_final = response2[0].split("\"")[-1] + "pixhost.to/images/" + response2[1].split("\"")[0]
+		image_link_final = response2[len(response2)-2].split("\"")[-1] + "pixhost.to/images/" + response2[-1].split("\"")[0]
 		image_links += image_link_final + "\n"
 		print("Image", i, "/", len(response)-1, "done, Progress = " + str(round(i/(len(response)-1)*100, 2)) + "%   ", 
 			  end='\r')
