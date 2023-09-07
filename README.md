@@ -5,4 +5,4 @@ A Python script to retrieve all image links from an ViperGirls gallery. The link
 Install the required libaries using: ```pip install urllib3 pyperclip```.
 
 ## Using the script
-The script [ifdl.py](ifdl.py) can be run.
+The script [vgdl.py](vgdl.py) can be run.
