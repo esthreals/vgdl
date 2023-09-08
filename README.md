@@ -1,4 +1,4 @@
-# ifdl
+# vgdl
 A Python script to retrieve all image links from an ViperGirls gallery. The links will be copied to the clipboard, after which any mass file downloader can be used. 
 
 ## Requirements for the script
